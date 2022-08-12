@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: chocolate;
+}
+.container{
+    max-width: 1500px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-head{
+    float: left;
+    padding: 30px;
+    color: chocolate;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+    
+}
+.header-contact p a {
+    text-decoration: none;
+    color: chocolate;
+    font-weight: bold;
+}
+.header-contact p a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+    background-color:  rgb(9, 240, 9);
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+#career-objective{}
+
+.left-div{
+    width: 30%;
+    color: chocolate;
+    float: left;
+    font-weight: bold;
+}
+.right-div{
+    width: 70%;
+    color: black;
+    float: right;
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    
+}
+#sanowara{
+    
+}
+.company{
+    
+}
+.company h5 a {
+    text-decoration: none;
+    color: chocolate;
+    font-weight: bold;
+}
+.company h5 a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+    background-color:  rgb(9, 240, 9);
+}
+.distance{
+    margin-left: none;
+    margin-top: 20px;
+}
+.reference-left{
+    width: 50%;
+    float: left;
+}
+.reference-right{
+    width: 50%;
+    float: left;
+}
+.reference-left p a {
+    text-decoration: none;
+    color: chocolate;
+    font-weight: bold;
+}
+.reference-left p a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+    background-color:  rgb(9, 240, 9);
+}
+.reference-right p a {
+    text-decoration: none;
+    color: chocolate;
+    font-weight: bold;
+}
+.reference-right p a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+    background-color:  rgb(9, 240, 9);
+}
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+.bottom-container p{
+    margin: 20px;
+}
+.bottom-container a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+}
+.bottom-container a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    background-color:  yellow;
